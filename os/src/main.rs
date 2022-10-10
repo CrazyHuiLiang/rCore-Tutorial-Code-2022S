@@ -2,6 +2,7 @@
 #![no_main]
 #![feature(panic_info_message)]
 
+// 内核主函数
 use log::*;
 
 #[macro_use]

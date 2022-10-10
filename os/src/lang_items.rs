@@ -1,3 +1,4 @@
+// 需要我们提供给 Rust 编译器的一些语义项，目前包含内核 panic 时的处理逻辑
 use crate::sbi::shutdown;
 use core::panic::PanicInfo;
 
